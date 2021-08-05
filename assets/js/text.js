@@ -16,12 +16,12 @@ $(function() {
         document.title = loadTitle + animSeq[0];
         animIndex++
     }
-    window.setInterval(doInverseSpinZeroPitch, 150);
+    window.setInterval(doInverseSpinZeroPitch, 170);
 });
 $(function() {
   $(".typed").typed({
       strings: ['Minh Gay', "@MinhNas", "Xaomi Is not good"],
-      typeSpeed: 70,
+      typeSpeed: 50,
       loop: true,
       cursorChar: "|",
   });
